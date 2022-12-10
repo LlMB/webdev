@@ -1,0 +1,54 @@
+@import  '/fonts/Roboto.ttf';
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+body{
+    background-color: #B0D1E5;
+    font-family: 'Roboto', sans-serif; 
+}
+.header{
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+.header-logo{
+    font-size: 32px;
+    color: rgb(45, 69, 206);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.anime-title{
+    width: 250px;
+    color: rgb(148, 63, 105);
+}
+.anime-img{
+    width: 300px;
+    height: 400px;
+    padding-top: 7%;
+}
+
+.anime-img:hover{
+    cursor: pointer;
+}
+
+.header-search{
+    padding: 8px;
+    border: 2px solid #B0D1E5;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+}
+.anime-data{
+    color: #562d99;
+}
